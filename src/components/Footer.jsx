@@ -88,7 +88,9 @@ export default function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2024 Copyright:
+        <p className='mb-0' style={{ color: '#005a17'}} >
+          Copyright © 2024 Asset Legacy. Pure Health Nexus is part of the Asset Legacy family. All rights reserved.
+        </p>
       </div>
     </MDBFooter>
   );
